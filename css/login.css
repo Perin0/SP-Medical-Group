@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&family=Epilogue:wght@200&family=Inter&family=Ruwudu:wght@500&display=swap');
+body{
+    background-color: #E4F2F2;
+}
+
+h3{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 2%;
+    text-align: justify;;
+}
+h6{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.10rem;
+    text-align: justify;
+}
+
+form{
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.text-container{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.form-group{
+    width: 35vw;
+}
+
+.form-control{
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+#medica{
+    position:absolute;
+    right: 10%;
+    top: 15%;
+}
+
+.btn btn-primary{
+    margin-left: 10vw !important;
+}
+
+img{
+    margin-top: -2%;
+    width: 5%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <link rel="icon" href="img/logo-icon.png">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="text-container">
+        <h3>Faça seu login e continue <br> conectado</h3>
+        <h6>Para ter acesso aos seus dados e agendamentos, se conecte pelas informações <br> a baixo</h4>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" maxlength="14" aria-describedby="emailHelp" placeholder="Seu CPF" onkeydown="maskCPF()" required>
+            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu CPF, com ninguém.</small>
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="Senha" required>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="login()">Entrar</button>
+        <p id="msg"></p>
+    </form>
+    <img src="img/logo-icon.png" id="medica">
+    
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&family=Epilogue:wght@200&family=Inter&family=Ruwudu:wght@500&display=swap');
+body{
+    background-color:#e4f2f2;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    caret-color: transparent;
+}
+.nav nav-pills nav-fill{
+    width: fit-content;
+    height: fit-content;
+}
+#logo{
+    font-family: 'Ruwudu', serif;
+    font-size: 1.15rem;
+    color:#003943;
+    width: 200px;
+}
+.logo-icon{
+    width: 13%;
+    height: auto;
+    padding-right: 3%;
+}
+#nav-item{
+    font-family: 'Inter', sans-serif;
+    color: #1D41C2;
+}
+.nav-item nav-link{
+    height: fit-content;
+    width: fit-content;
+}
+.text-container{
+    margin: auto;
+    margin-top: 6%;
+    margin-right: 47%;
+    width: 45%;
+}
+h3{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 2%;
+    text-align: justify;;
+}
+h6{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 1.10rem;
+    text-align: justify;
+}
+.doctor{
+    position:absolute;
+    width: 29%;
+    height: auto;
+    margin-left: 53%;
+    margin-top: -18%;
+}
+button{
+    outline: none !important;
+    position: relative;
+    font-family: 'Epilogue', sans-serif;
+    width: 25%;
+    font-weight: 600 !important;
+    background-color: #2c6ef2;
+    border-radius: 20px !important;
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+}

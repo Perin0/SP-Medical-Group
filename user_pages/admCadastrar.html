@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/admCadastrar.css" media="screen" />
+    <link rel="icon" href="../img/logo-icon.png" type="image/png">
+    <script src="https://unpkg.com/imask"></script>
+    <script src="../js/admCadastrar.js"></script>
+    <title>SP Medical</title>
+</head>
+
+<body>
+    <nav>
+        <a class="Voltar" href="adm.html" id="voltar">Voltar</a>
+    </nav>
+    <img src="../img/logo-icon.png" alt="" id="icon">
+
+    <h3 class="sp">SP-Medical-Group</h3>
+    <h1>Faça um Cadastro</h1>
+    <p>Determine as informações de cadastro</p>
+
+
+    <div class="info" id="userForm">
+        <br>
+        <label for="name">Nome Completo:</label>
+        <input class="campo" type="text" id="name" placeholder="Digite o nome completo"></input>
+        <br> <br>
+        <label for="password">Senha:</label>
+        <input class="campo" type="text" id="password" placeholder="Digite a senha"></input>
+        <br> <br>
+        <label for="email">Email:</label>
+        <input class="campo" type="email" id="email" placeholder="Digite o E-mail"></input>
+        <br> <br>
+        <label for="cpf">CPF:</label>
+        <input class="campo" type="text" id="cpf" maxlength="14" placeholder="Digite o CPF" onkeydown="maskCPF()"></input>
+        <br> <br>
+        <label for="cep">CEP:</label>
+        <input class="campo" type="text" id="cep" maxlength="9" placeholder="Digite o CEP" onkeydown="maskCEP()"></input>
+        <br> <br>
+        <label for="tel">Telefone:</label>
+        <input class="campo" type="text" id="tel" maxlength="15" placeholder="Digite o telefone" onkeydown="maskTEL()"></input>
+        <br> <br>
+        <div class="form-group">
+            <label for="tipo">Escolha um tipo de usuário</label>
+            <select id="type" name="tipo" required>
+                <option value="null" selected disabled>Escolha uma opção:</option>
+                <option value="adm">Administrador</option>
+                <option value="med">Médico</option>
+                <option value="pac">Paciente</option>
+            </select>
+        </div>
+        <p id="msg"></p>
+        <button type="submit" onclick="cadastrar()" class="btn btn-primary">Entrar</button>
+    </div>
+    
+    <br> <br>
+
+</body>
+
+</html>

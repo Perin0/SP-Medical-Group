@@ -1,0 +1,17 @@
+[
+  {
+    "paciente": "Melissa Rodrigues",
+    "medico": "Letycia Neves",
+    "dateHora": "2024-01-01T10:30"
+  },
+  {
+    "paciente": "Júlia Gomes",
+    "medico": "Miguel Rogério",
+    "dateHora": "2024-01-02T12:30"
+  },
+  {
+    "paciente": "Matheus Boletti",
+    "medico": "Eduardo Hideki",
+    "dateHora": "2024-01-03T14:30"
+  }
+]

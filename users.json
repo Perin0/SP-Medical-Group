@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Guilherme Perino Feitosa",
+    "password": "19502077",
+    "type": "adm",
+    "email": "guilhermeperinoads@gmail.com",
+    "cpf": "462.799.298-09",
+    "cep": "19911-722",
+    "tel": "(00) 00000-0000"
+  },
+  {
+    "name": "Letycia Neves",
+    "password": "med",
+    "type": "med",
+    "email": "letycia@gmail.com",
+    "cpf": "111",
+    "cep": "07951-050",
+    "tel": "(19) 92089-3234"
+  },
+  {
+    "name": "Miguel Rogério",
+    "password": "med",
+    "type": "med",
+    "email": "miguel@gmail.com",
+    "cpf": "222",
+    "cep": "18706-660",
+    "tel": "(15) 92876-8471"
+  },
+  {
+    "name": "Eduardo Hideki",
+    "password": "med",
+    "type": "med",
+    "email": "hideki@gmail.com",
+    "cpf": "333",
+    "cep": "02181-070",
+    "tel": "(16) 93645-5443"
+  },
+  {
+    "name": "Melissa Rodrigues",
+    "password": "pac",
+    "type": "pac",
+    "email": "melissa@gmail.com",
+    "cpf": "444",
+    "cep": "04407-060",
+    "tel": "(13) 92112-3422"
+  },
+  {
+    "name": "Júlia Gomes",
+    "password": "pac",
+    "type": "pac",
+    "email": "julia@gmail.com",
+    "cpf": "555",
+    "cep": "12940-182",
+    "tel": "(16) 92247-1519"
+  },
+  {
+    "name": "Matheus Boletti",
+    "password": "pac",
+    "type": "pac",
+    "email": "matheus@gmail.com",
+    "cpf": "666",
+    "cep": "19910-540",
+    "tel": "(15) 93104-0356"
+  }
+]

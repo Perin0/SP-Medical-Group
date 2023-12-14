@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&family=Epilogue:wght@200&family=Inter&family=Ruwudu:wght@500&display=swap');
+
+body {
+    background-color: #e4f2f2;
+    caret-color: transparent;
+}
+
+* {
+    text-decoration: none;
+    transition: all 0.3s;
+    transform: all 0.3s;
+}
+
+.text-right{
+    width: 100vw;
+    text-align: right;
+}
+
+.table{
+    width: 50vw;
+    margin-left: 25%;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    text-align: center;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+
+thead{
+    background-color: rgb(196, 196, 196);
+    border: 1px solid black !important;
+}
+
+tbody{
+    background-color: #fbffff;
+}

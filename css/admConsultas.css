@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&family=Epilogue:wght@200&family=Inter&family=Ruwudu:wght@500&display=swap');
+
+body {
+    background-color: #e4f2f2;
+}
+
+* {
+    text-decoration: none;
+    transition: all 0.3s;
+    transform: all 0.3s;
+}
+
+form {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.form-group,
+.input-group mb-3 {
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+}
+
+ul {
+    height: fit-content;
+}
+
+li {
+    list-style: none;
+    margin-left: -35%;
+}
+
+nav {
+    text-align: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    color: blue;
+}
+
+.top-page {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+iframe {
+    margin-left: 24%;
+    margin-top: 1.5%;
+}
+
+h3 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 2rem;
+    margin-top: -3.65%;
+    margin-left: 5%;
+    padding-bottom: 0.5%;
+    text-align: justify;
+    ;
+}
+
+.voltar {
+    margin-top: -4.5%;
+    padding-bottom: 1%;
+    margin-left: 90%;
+}
+
+#msg{
+    color: green;
+}

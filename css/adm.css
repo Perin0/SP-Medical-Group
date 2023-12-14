@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&family=Epilogue:wght@200&family=Inter&family=Ruwudu:wght@500&display=swap');
+
+body {
+    background-color: #E4F2F2;
+    padding-top: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    caret-color: transparent;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    padding-bottom: 1%;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    padding-bottom: 1%;
+}
+
+p {
+    position: absolute;
+    left: 33%;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+
+a {
+    color: black;
+}
+
+.nav nav-pills nav-fill {
+    width: fit-content;
+    height: fit-content;
+}
+
+#logo {
+    font-family: 'Ruwudu', serif;
+    font-size: 1.15rem;
+    color: #003943;
+    width: fi;
+}
+
+.logo-icon{
+    width: 3.25vw !important;
+    height: auto;
+    padding-right: 3%;
+}
+
+#nav-item {
+    font-family: 'Inter', sans-serif;
+    color: #1D41C2;
+}
+
+.nav-item nav-link {
+    height: fit-content;
+    width: fit-content;
+}
+
+.nav nav-pills {
+    width: fit-content;
+    height: fit-content;
+}
+
+#logo {
+    font-family: 'Ruwudu', serif;
+    font-size: 1.15rem;
+    color: #003943;
+    width: fit-content;
+}
+
+.logo-icon {
+    width: 13%;
+    height: auto;
+    padding-right: 3%;
+}
+
+.links {
+    margin: auto;
+    height:fit-content;
+    width: fit-content;
+}
+
+.links:first-child{
+    margin-bottom: 2%;
+}
+
+button{
+    outline: none !important;
+    position: relative;
+    font-family: 'Epilogue', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    background-color: #2c6ef2;
+    border-radius: 20px !important;
+    color: white;
+}
+
+#agendar{
+    margin-bottom: 5% !important;
+}
+
+.content{
+    margin: auto;
+    margin-top: 7%;
+}
